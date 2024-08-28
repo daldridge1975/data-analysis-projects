@@ -1,12 +1,12 @@
 # This demo shows off comments!
 
-# print("This does not print.");
+print("This does not print.");
 
-print("Hello, World!"); # Comments do not have to start at the beginning of a line.
+#print("Hello, World!"); # Comments do not have to start at the beginning of a line.
 
-# Here is how
-# to have
-# multi-line
-# comments.
+print ("Here is how");
+print ("""to have
+ multi-line
+ comments.""")
 
-print("Comments make your code more readable by others.");
+#print("Comments make your code more readable by others.");
