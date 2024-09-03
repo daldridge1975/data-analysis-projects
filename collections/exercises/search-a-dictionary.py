@@ -1,4 +1,7 @@
 # Write your return_cost function here:
+
+
+
 def return_cost(menu, item):
   pass
 
@@ -17,16 +20,22 @@ def main():
     'garlic' : 0.05
   }
 
-  choice = 'vanilla'
-  price = return_cost(flavors, choice)
-  if price == 0:
-    print("Sorry, we don't have {0}.".format(choice))
-  else:
-    print(f"The price for {choice} is ${price} per scoop.")
 
-# Uncomment the lines below after you code your fanciest_flavor function.
-  # print('---')
-  # expensive_flavor = fanciest_flavor(flavors)
-  # print(f"The most expensive flavor we have is {expensive_flavor}.")
+  choice= 'carmel'
+if choice in flavors:
+  cost =flavors[choice]
+else:
+  print(0)
+
+#   price = return_cost(flavors, choice)
+#   if price == 0:
+#     print("Sorry, we don't have {0}.".format(choice))
+#   else:
+#     print(f"The price for {choice} is ${price} per scoop.")
+
+# # Uncomment the lines below after you code your fanciest_flavor function.
+#   # print('---')
+#   # expensive_flavor = fanciest_flavor(flavors)
+#   # print(f"The most expensive flavor we have is {expensive_flavor}.")
 
 main()
